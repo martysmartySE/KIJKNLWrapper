@@ -1,0 +1,25 @@
+{
+    "name": "martysmarty-se/kijknl-wrapper",
+    "description": "Wrapper for the KIJK.NL API. No public documentation seems to be available. ",
+    "keywords": ["wrapper", "api", "kijk.nl"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martijn Katerbarg",
+            "email": "martijnkaterbarg@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.0",
+        "nategood/httpful": "0.2.20"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "martysmartySE\\KIJKNLWrapper\\": "src/"
+        }
+    }
+}
